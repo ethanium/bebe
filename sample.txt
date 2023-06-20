@@ -1,0 +1,11 @@
+-ma
+[
+! I am a comment!
+-st user.
+-in pass.
+-wr "Username:".
+-rd user.
+-wr "Password:".
+-rd pass.
+-wr "Welcome, " + user + "!".
+]
